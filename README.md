@@ -20,9 +20,6 @@ This approach is both efficient and well integrated with Angular's reactive prog
 
 ## Testing Instructions
 
-**Test Setup:**  
-The tests are set up using Angular 16’s testing APIs. Instead of the deprecated `HttpClientTestingModule`, the providers `provideHttpClient` and `provideHttpClientTesting` are used to configure HttpClient and its testing utilities.
-
 **How the Test Works:**  
 The test verifies that:
 
